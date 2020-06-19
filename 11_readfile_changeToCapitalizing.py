@@ -1,0 +1,8 @@
+fo1 = open("11_file.txt", "r")
+str_read = fo1.read()
+fo1.close()
+fo2 = open("11_file.txt", "w")
+str_read = str_read.upper()
+print(str_read)
+fo2.write(str_read)
+fo2.close()

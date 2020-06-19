@@ -1,0 +1,8 @@
+fo = open("52_python.py", "r+")
+print("Enter the program to be appended: ")
+read_user_str = input()
+fo.write(read_user_str)
+read_file_str = fo.read()
+print()
+print(read_file_str)
+fo.close()

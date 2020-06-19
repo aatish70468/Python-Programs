@@ -1,0 +1,11 @@
+fo1 = open("4_file1.txt", "r")
+fo2 = open("4_file2.txt", "r")
+
+string_read = fo1.read() + "\n" + fo2.read()
+fo1.close()
+fo2.close()
+fo3 = open("4_file3.txt", "r+")
+print(fo3.mode)
+print(string_read)
+fo3.write(string_read)
+fo3.close()
