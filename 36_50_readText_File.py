@@ -1,4 +1,4 @@
-fo = open("36_file.txt", "r")
+fo = open("36_50_file.txt", "r")
 words = []
 no_lines = 0
 for i in fo:

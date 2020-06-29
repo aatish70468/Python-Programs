@@ -4,5 +4,6 @@ for i in s1:
     x.append(i)
 
 x.sort()
-print(len(s1))
-print(x)
+for i in range(len(x)):
+    print(x[i], end = '')
+
